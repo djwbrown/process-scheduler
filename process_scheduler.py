@@ -115,7 +115,7 @@ def output_running_processes(second_index):
     print "{:2}s: {} {} {}".format(second_index, status_A, status_B, status_C)
 
 # Print the status of each process on a 1s interval.
-print "\nThe following processes are now running..."
+print "\nThe following 'processes' (really threads) are now running..."
 
 try:
     for i in xrange(0,22):
